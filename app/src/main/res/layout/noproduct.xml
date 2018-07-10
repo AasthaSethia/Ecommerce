@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/noprod"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
+        android:text="NO MORE PRODUCTS AVAILABLE "
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <Button
+        android:id="@+id/llogout"
+
+        style="@style/edittext1"
+        android:layout_width="124dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="184dp"
+        android:layout_marginEnd="48dp"
+        android:text="Search"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Button
+        android:id="@+id/search"
+        style="@style/edittext1"
+        android:layout_width="137dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/llogout"
+        android:layout_marginStart="30dp"
+        android:text="Logout" />
+
+
+</RelativeLayout>

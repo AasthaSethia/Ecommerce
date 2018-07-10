@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iear"
+        android:layout_width="255dp"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/image4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/bagd"
+        android:layout_width="371dp"
+        android:layout_height="148dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp"
+        android:text="@string/sc2"
+        android:textColor="@color/colorblack"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+
+
+    <Button
+        android:id="@+id/cart"
+        style="@style/edittext1"
+        android:layout_width="124dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:text="ADD TO CART"
+        tools:ignore="MissingConstraints,NotSibling"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/buy"
+
+        style="@style/edittext1"
+        android:layout_width="124dp"
+        android:layout_height="37dp"
+        android:layout_alignBottom="@+id/cart"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="43dp"
+        android:text="BUY"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/iphone"
+        android:layout_width="128dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/a14"
+        android:textColor="@color/colorblack"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/iicross"
+        android:layout_width="128dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="169dp"
+        android:text="@string/ava1"
+        android:textColor="@color/colorred"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/bprice"
+        android:layout_width="128dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:text="@string/p3"
+        android:textColor="@color/colorblack"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="367dp" />
+</RelativeLayout>

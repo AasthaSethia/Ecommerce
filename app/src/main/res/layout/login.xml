@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="425dp"
+    android:background="@color/colorwhite"
+    android:clearTaskOnLaunch="true"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/emaili"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail ID"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/passw"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <EditText
+        android:id="@+id/passw"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_alignStart="@+id/iicross"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="310dp"
+        tools:ignore="UnknownId"></EditText>
+
+    <Button
+        android:id="@+id/login"
+        style="@style/edittext1"
+        android:layout_width="170dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="456dp" />
+    <TextView
+        android:id="@+id/iicross"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Sign in"
+        android:textColor="@color/colorblack"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="155dp"
+         />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/passw"
+        android:layout_marginTop="66dp"
+        android:text="E-mail"
+        android:textColor="@color/colorblack"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <TextView
+        android:id="@+id/passw"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/iicross"
+        android:layout_marginTop="152dp"
+        android:text="Password "
+        android:textColor="@color/colorblack"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="289dp"
+        tools:ignore="DuplicateIds" />
+
+</RelativeLayout>

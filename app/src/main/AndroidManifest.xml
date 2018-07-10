@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aashtha.e_commerce">
+
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCOUNT_MANAGER"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Apple" />
+        <activity android:name=".OnePlus" />
+        <activity android:name=".SkullC" />
+        <activity android:name=".SkullCe" />
+        <activity android:name=".Jbl" />
+        <activity android:name=".Sony" />
+        <activity android:name=".Crossfire" />
+        <activity android:name=".HarryPotter" />
+        <activity android:name=".Fossils" />
+        <activity android:name=".Baggit" />
+        <activity android:name=".Cart" />
+        <activity android:name=".Buy" />
+        <activity android:name=".ProductAdapter" />
+        <activity android:name=".AppOpen" />
+        <activity android:name=".product"/>
+        <activity android:name=".ForgotPassword"/>
+        <activity android:name=".Mail"/>
+
+    </application>
+
+</manifest>

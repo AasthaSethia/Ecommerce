@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">E-Commerce</string>
+    //
+    <string name="iphone_x">14.73cms(5.8 inch) capacitive touchscreen with 2436 x 1125 pixels
+                            iOS v11.1.1 OS with 1.3GHz, Apple A11 Bionic hexa core processor, 3GB RAM, 256GB internal memory and single sim
+                             2716mAH lithium-ion battery </string>
+    <string name="oneplus">20MP+16MP primary dual camera with OIS15.95 centimeters (6.28-inch) 2280 x 1080 pixels resolution.Android Oreo 8.1 with Qualcomm Snapdragon 845 octa core processor
+8 GB RAM, 128 GB internal memory and dual nano SIM dual-standby(4G+4G),3300mAH lithium Polymer battery with Dash Charge technology
+Face Unlock, Fingerprint scanner, Water Resistant</string>
+    <string name="sony">Bluetooth speakers made for electronic dance music (EDM)
+Extra bass for deep and punchy sound
+One-touch listening with NFC and Bluetooth
+1400mAh battery up to 16 hours of battery life for longer listening hours
+Splash proof for worry-free use
+Built-in mic for hands free calling
+Compact, portable design for easy carrying</string>
+    <string name="jbl">Wireless Bluetooth Streaming
+3000mAH Rechargeable Battery
+Speakerphone
+Splashproof
+JBL Connect
+JBL Bass Radiator
+Lifestyle Material</string>
+    <string name="sc1">An all-new lightweight and stylish design looks and feels comfortable on your ears
+Supreme soundtm delivers rich, balanced audio for all your favorite music
+Built-in remote and microphone allow you to manage music and phone calls
+Essential controls keeping you in command full-time are an in-line mic and remote for managing music and phone calls</string>
+    <string name="sc2">Size: 11 Millimeters Drivers With Neodymium Magnets For Full-Range Sound
+It Has 1.3 Meter Nylon Braided Cable With Gold-Plated 3.5 Millimeters Plug
+In-Ear Design Allows For Passive Noise Isolation</string>
+   <string name="b1">About The Book
+       Can two people with traumatic pasts fall in love and heal each other\'s wounds? Is it difficult to trust once you have been betrayed and is lovemaking a result of emotional attachment or vice-versa? Eva Trammel and Gideon Cross are about to find answers to all these complicated questions when they meet each other and get pulled together like two magnets.</string>
+    <string name="b2"> All seven Books in the multi-award winning, internationally bestselling Harry Potter series, available as one download with stunning cover art by Olly Moss. Enjoy the stories that have captured the imagination of millions worldwide.
+</string>
+    <string name="ba1">Leather material black colored tote bag
+11 inches height x 13.5 inches length x 4.5 inches width
+Snap closure with removable strap
+1 pocket
+1 year warranty
+Do not expose to extreme heat</string>
+    <string name="ba2">Synthetic material tan colored tote bag
+27.94 centimeters height x 42.55 centimeters length x 10.16 centimeters width
+Do not expose to extreme heat</string>
+    <string name="Enter"> Enter your email here</string>
+    <string name="buy">PRODUCT WILL BE DELIVERED WITHIN 4-5 DAYS</string>
+    <string name="contact">Contacting Google Servers ...</string>
+    <string name="WC">Wrong Credentials</string>
+    <string name="Authen">Authenticating....</string>
+    <string name="access">Access Token is </string>
+    <string name="accesses">Access Token</string>
+    <string name="email">Email</string>
+    <string name="mail">name</string>
+    <string name="pass">password</string>
+    <string name="id">id</string>
+    <string name="apppref">AppPref</string>
+    <string name="Name">AppPref</string>
+    <string name="oauth">oauth2:https://www.googleapis.com/auth/urlshortener</string>
+    <string name="address">https://www.googleapis.com/urlshortener/v1/url?access_token=</string>
+    <string name="Thank">Thank You for visiting!</string>
+    <string name="nopro">No Product Available</string>
+    <string name="cart">PRODUCT ADDED TO YOUR CART </string>
+   <string name="a1">Apple iPhone X,Space Grey,64GB,$999</string>
+    <string name="a2">"JBL GO BLUETOOTH,SPEAKERS,$60.54"</string>
+    <string name="a3">"Crossfire Series By,Sylvia Day,$25.59"</string>
+    <string name="a4">"Baggit Grey and Brown,Brown bag,$45.36"</string>
+    <string name="a7">"OnePlus 6 (SILK WHITE,8GB RAM,128GB MEMORY),$529</string>
+    <string name="a9">Harry Potter By,J.K.Rowling,$35.59</string>
+    <string name="a8">Sony Bluetooth,Speakers,$70.36</string>
+    <string name="a5">Skull Candy,Headphones,$60.79</string>
+    <string name="a6">Skull Candy,Earplugs,$60.79</string>
+    <string name="a10">"Fossils Hangbag For,Women,$55.54</string>
+    <string name="ava">Available</string>
+    <string name="ava1"> Not Available</string>
+    <string name="a11">APPLE IPHONE X</string>
+    <string name="a12">ONE PLUS 6</string>
+    <string name="a13">SKULL CANDY HEADPHONES</string>
+    <string name="a14">SKULL CANDY EARPLUGS</string>
+    <string name="a15">JBL GO </string>
+    <string name="a16">SONY</string>
+    <string name="a17">CROSSFIRE SERIES</string>
+    <string name="a18">HARRY POTTER</string>
+    <string name="a19">FOSSILS</string>
+    <string name="a20">BAGGIT</string>
+    <string name="p1">Price: $999</string>
+    <string name="p2">Price: $529</string>
+    <string name="p3"> Price: $70.36</string>
+    <string name="p4"> Price: $60.74</string>
+    <string name="p5"> Price: $25.59</string>
+    <string name="p6"> Price: $35.59</string>
+    <string name="p7"> Price: $55.54</string>
+    <string name="p8"> Price: $45.36</string>
+
+
+</resources>

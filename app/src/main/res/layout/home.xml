@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+
+        <TextView
+            android:id="@+id/noprod"
+            android:layout_width="323dp"
+            android:layout_height="107dp"
+            android:layout_centerInParent="true"
+            android:text="@string/nopro"
+            android:textColor="@color/colorblack"
+            android:textSize="20dp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+
+        <EditText
+            android:id="@+id/thesearchFilter"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="search" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/thesearchFilter">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

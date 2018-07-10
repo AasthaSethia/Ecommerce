@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/apple1"
+        android:layout_width="208dp"
+        android:layout_height="268dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/image2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/apple2"
+        android:layout_width="92dp"
+        android:layout_height="79dp"
+        android:layout_alignTop="@+id/apple3"
+        android:layout_toStartOf="@+id/buy"
+        app:srcCompat="@drawable/i62"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <ImageView
+        android:id="@+id/apple3"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="155dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/i63"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+
+    <TextView
+        android:id="@+id/iphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apple2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/a11"
+        android:textColor="@color/colorblack"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/iphoned"
+        android:layout_width="165dp"
+        android:layout_height="514dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/iphone_x"
+        android:textColor="@color/colorblack"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="11dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/bprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cart"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="63dp"
+        android:text="@string/p1"
+        android:textColor="@color/colorblack"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <TextView
+        android:id="@+id/avail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="75dp"
+        android:layout_marginEnd="35dp"
+        android:text="@string/ava1"
+        android:textColor="@color/colorred"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <Button
+        android:id="@+id/cart"
+        style="@style/edittext1"
+        android:layout_width="97dp"
+        android:layout_height="44dp"
+        android:layout_alignBottom="@+id/buy"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="65dp"
+        android:text="ADD TO CART"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/buy"
+
+        style="@style/edittext1"
+        android:layout_width="124dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="66dp"
+        android:text="BUY"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+</RelativeLayout>
